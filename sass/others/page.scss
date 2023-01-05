@@ -1,0 +1,40 @@
+.container {
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    .headerImg {
+    
+        img {
+            width: 150px;
+            border: 2px solid $border-color;
+            border-radius: 50%;
+            padding: 4px;
+        }
+    }
+
+    .headerTexts {
+        h2 {
+            font-weight: 500;
+        }
+
+        p {
+            font-weight: 400;
+        }
+
+    }
+    
+    .mainContent {
+        ul {
+            li {
+                .btn {
+                    width: 70%;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .descriptionFooter {
+            gap: 3px;
+        }
+    }
+}

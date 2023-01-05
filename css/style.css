@@ -1,0 +1,24 @@
+.container {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+.container .headerImg img {
+  width: 150px;
+  border: 2px solid #0d0d68;
+  border-radius: 50%;
+  padding: 4px;
+}
+.container .headerTexts h2 {
+  font-weight: 500;
+}
+.container .headerTexts p {
+  font-weight: 400;
+}
+.container .mainContent ul li .btn {
+  width: 70%;
+}
+.container .footer .descriptionFooter {
+  gap: 3px;
+}
+
+/*# sourceMappingURL=style.css.map */
